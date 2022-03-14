@@ -13,7 +13,7 @@ class Index extends React.Component {
                             return(
                                 <div key = {i}>
                                     <h3>{product.name}</h3>
-                                    <a href = {`/${product.id}`}><img src = {product.img}/></a><br/>
+                                    <a href = {`/products/${product.id}`}><img src = {product.img}/></a><br/>
                                     {product.price}<br/>
                                     {`${product.qty} in stock.`}
                                 </div>
