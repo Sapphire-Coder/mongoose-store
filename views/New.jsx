@@ -3,6 +3,7 @@ class New extends React.Component {
     render() {
         return (
             <body>
+                <link rel = 'stylesheet' href = '/css/app.css'/>
                 <h1>Submit a New Product</h1>
                 <form action = '/products' method = 'POST'>
                     Name: <input type = 'text' name = 'name'/><br/>
