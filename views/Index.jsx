@@ -15,7 +15,7 @@ class Index extends React.Component {
                                     <h3>{product.name}</h3>
                                     <a href = {`/products/${product.id}`}><img src = {product.img}/></a><br/>
                                     Price: ${product.price}<br/>
-                                    {`${product.qty} in stock.`}
+                                    {product.qty > 0 ? `${product.qty} in stock` : 'Out of Stock'}
                                 </div>
                             )
                         })
