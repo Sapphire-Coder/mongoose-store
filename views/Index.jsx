@@ -14,7 +14,7 @@ class Index extends React.Component {
                                 <div key = {i}>
                                     <h3>{product.name}</h3>
                                     <a href = {`/products/${product.id}`}><img src = {product.img}/></a><br/>
-                                    {product.price}<br/>
+                                    Price: ${product.price}<br/>
                                     {`${product.qty} in stock.`}
                                 </div>
                             )

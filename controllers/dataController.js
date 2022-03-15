@@ -55,6 +55,17 @@ const dataController = {
                 next()
             }
         })
+    },
+    buy(req, res, next){
+        Product.findByIdAndUpdate(req.params.id, { $inc: { qty: -1 } }, { new:true }, (err, decProduct) => {
+            if(err) {
+                res.status(404).send({ msg: err.message })
+            }
+            else {
+                res.locals.data.product = decProduct
+                next()
+            }
+        })
     }
 }
 
