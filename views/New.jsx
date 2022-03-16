@@ -2,7 +2,7 @@ const React = require('react')
 class New extends React.Component {
     render() {
         return (
-            <body>
+            <div id = 'newPg'>
                 <title>New Page</title>
                 <h1>New Product</h1>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
@@ -12,10 +12,10 @@ class New extends React.Component {
                     Description: <input type = 'text' name = 'description'/><br/>
                     Image: <input type = 'text' name = 'img'/><br/>
                     Price: <input type = 'number' step = '0.01' min = '0' name = 'price'/><br/>
-                    Quantity: <input type = 'number' min = '0' name = 'qty'/><br/>
+                    Quantity: <input type = 'number' min = '0' name = 'qty'/><br/><br/>
                     <input type = 'submit' value = 'Create Product'/>
                 </form>
-            </body>
+            </div>
         )
     }
 }

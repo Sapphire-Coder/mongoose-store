@@ -4,7 +4,7 @@ class Show extends React.Component {
     render() {
         const { product } = this.props
         return (
-            <body>
+            <div id = 'showPg'>
                 <title>{product.name}</title>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
                 <h1>{product.name}</h1>
@@ -20,7 +20,7 @@ class Show extends React.Component {
                 <form action = {`/products/${this.props.product._id}?_method=PATCH`}  method = 'POST'>
                     {product.qty > 0 ? <input type = 'submit' value = 'Buy'/> : null}
                 </form>
-            </body>
+            </div>
         )
     }
 }

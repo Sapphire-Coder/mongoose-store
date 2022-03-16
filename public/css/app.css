@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+    color: rgb(255, 0, 255);
 }
 
 #header{
@@ -40,4 +41,37 @@ body{
 .shImg{
     max-width: 400px;
     max-height: 400px;
+}
+
+#showPg{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    border-style: groove;
+    border-color: blueviolet;
+    border-width: 5px;
+    background-color: orange;
+}
+
+#editPg{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    border-style: groove;
+    border-color: blueviolet;
+    border-width: 5px;
+    background-color: orange;
+    margin: auto;
+}
+
+#newPg{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    border-style: groove;
+    border-color: blueviolet;
+    border-width: 5px;
+    background-color: orange;
+    margin: auto;
 }
