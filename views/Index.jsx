@@ -7,7 +7,7 @@ class Index extends React.Component {
             <body>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
                 <div id = 'header'>
-                    <h1>Products</h1>
+                    <h1>Games</h1>
                     <h2><a href = '/products/new'>Submit a new item</a></h2>
                 </div>
                 <div id = 'container'>
