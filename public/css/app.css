@@ -2,6 +2,16 @@ body{
     background-color: aqua;
 }
 
+#header{
+    border-style: groove;
+    border-color: orange;
+    border-width: 5px;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+    text-align: center;
+    color: aqua;
+}
+
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -9,14 +19,15 @@ body{
 
 .games{
     text-align: center;
-    border-style: solid;
+    border-style: groove;
     border-width: 5px;
     border-color: blueviolet;
     width: 400px;
     height: 350px;
     margin: auto;
     margin-bottom: 50px;
-
+    background-color: orange;
+    color: rgb(255, 0, 255);
 }
 
 .inImg{

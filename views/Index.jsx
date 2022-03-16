@@ -6,8 +6,10 @@ class Index extends React.Component {
         return(
             <body>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
-                <h1>Products</h1>
-                <h2><a href = '/products/new'>Submit a new item</a></h2>
+                <div id = 'header'>
+                    <h1>Products</h1>
+                    <h2><a href = '/products/new'>Submit a new item</a></h2>
+                </div>
                 <div id = 'container'>
                     {
                         products.map((product, i) =>{

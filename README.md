@@ -1,1 +1,1 @@
-# mongoose-store
+# Mongoose/MongoDB Webstore Project

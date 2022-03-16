@@ -5,6 +5,7 @@ class Show extends React.Component {
         const { product } = this.props
         return (
             <body>
+                <title>{product.name}</title>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
                 <h1>{product.name}</h1>
                 <img src = {product.img} className = 'shImg'/><br/>
