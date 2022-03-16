@@ -34,10 +34,10 @@ body{
     margin: auto;
     display: block;
     max-width: 250px;
-    max-height: 250px;
+    max-height: 225px;
 }
 
 .shImg{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
 }
