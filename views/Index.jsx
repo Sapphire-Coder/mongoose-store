@@ -6,6 +6,7 @@ class Index extends React.Component {
         return(
             <body>
                 <link rel = 'stylesheet' href = '/css/app.css'/>
+                <title>Product Index Page</title>
                 <div id = 'header'>
                     <h1>Games</h1>
                     <h2><a href = '/products/new'>Submit a new item</a></h2>

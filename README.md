@@ -17,6 +17,7 @@ In order to use the application, one can navigate to the provided link above to 
 1. Fork/clone this repository to local machine
 2. Using the terminal, change into the cloned directory
 3. Install the needed packages using `npm install`
-4. There is a seed provided, and one can seed the directory using `node seed.js`
-5. Running `nodemon`
-6. Opening a web browser, and navigating to [http://localhost:3000/products](http://localhost:3000/products)
+4. Create a .env file and setup your database
+5. There is a seed provided, and one can seed the directory using `node seed.js`
+6. Running `nodemon`
+7. Opening a web browser, and navigating to [http://localhost:3000/products](http://localhost:3000/products)
