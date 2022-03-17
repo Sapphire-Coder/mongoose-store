@@ -21,3 +21,5 @@ In order to use the application, one can navigate to the provided link above to 
 5. There is a seed provided, and one can seed the directory using `node seed.js`
 6. Running `nodemon`
 7. Opening a web browser, and navigating to [http://localhost:3000/products](http://localhost:3000/products)
+
+A link to a video example and explanation of the code can be found [here](https://youtu.be/_6cPvMOjF6I).
